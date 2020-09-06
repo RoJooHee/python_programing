@@ -1,0 +1,10 @@
+# -*- coding: utf-8 -*-
+
+char_list = "12①②가나다라"
+print (char_list)
+
+for ch in char_list:
+    if ch.isdigit(): print("isdigit(): ", ch)
+    if ch.isnumeric(): print("isnumeric(): ", ch)
+    if ch.isdecimal(): print("isdecimal(): ", ch)
+    if ch.isdigit() and ch.isascii(): print("isdigit() and isascii(): ", ch)
